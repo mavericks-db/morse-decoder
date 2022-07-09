@@ -61,6 +61,10 @@ Kindly modify the files as needed.
 
 - Gmail: [![Gmail Badge](https://img.shields.io/badge/-balitaanmavericks-white?logo=Gmail&logoColor=EA4335&style=plastic)](mailto:balitaanmavericks@gmail.com)
 
+👤 **Baroka Irotori** <img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="20"/>
+
+- GitHub: [![GitHub Badge](https://img.shields.io/badge/-Baroka--wp-white?logo=GitHub&logoColor=181717&style=plastic)](https://github.com/Baroka-wp)
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
