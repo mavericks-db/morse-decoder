@@ -2,7 +2,7 @@
 
 # Morse Decoder
 
-> This is an educational project to decode a Morse code using [Ruby](https://www.ruby-lang.org/en/) programming language.
+> This is an educational project to decode a [Morse code](https://en.wikipedia.org/wiki/Morse_code) using [Ruby](https://www.ruby-lang.org/en/) programming language.
 
 ## Built With
 
