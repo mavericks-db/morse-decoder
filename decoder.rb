@@ -81,5 +81,5 @@ end
 decode('-- -.--   -. .- -- .')
 
 # => MY NAME
-PHRASE = '.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...'
-print decode(PHRASE) # => A BOX FULL OF RUBIES
+phrase = '.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...'
+print decode(phrase) # => A BOX FULL OF RUBIES
