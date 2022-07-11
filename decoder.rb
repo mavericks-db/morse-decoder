@@ -68,9 +68,9 @@ def decode(phrase)
   phrase_decode = ''
   worlds.each do |world|
     world_decode = ''
-    world.split().each do |morse|
+    world.split.each do |morse|
       dc = decode_char(morse)
-      world_decode += "#{dc}"
+      world_decode += dc.to_s
     end
     phrase_decode += "#{world_decode} "
   end
@@ -81,5 +81,5 @@ end
 decode('-- -.--   -. .- -- .')
 
 # => MY NAME
-phrase_2 = '.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...'
-print decode(phrase_2) # => A BOX FULL OF RUBIES
+PHRASE = '.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...'
+print decode(PHRASE) # => A BOX FULL OF RUBIES
