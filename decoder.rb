@@ -44,23 +44,24 @@ MORSE_CODE = {
 # Create a method to decode a Morse code character, takes a string parameter,
 # and return the corresponding character in uppercase
 # (e.g. decode_char(".-") returns "A").
+# Every character in a word will be separated by a single space
+# (e.g. decode_word("-- -.--") returns "MY").
 def decode_char(char)
   MORSE_CODE[char].capitalize
 end
 
-# x = '.-'
-# puts decode_char(x)
-
-# split sentence in worlds
 def split_phrase(phrase)
   if phrase.is_a? String
     phrase.split('   ')
   else
-    put 'Your input should be a string in double or single quote !'
+    puts 'Your input should be a string in double or single quote!'
   end
 end
 
-# Decode world function
+# Create a method to decode an entire word in Morse code, takes a string parameter,
+# and return the string representation.
+#  Every character in a word will be separated by a single space
+# (e.g. decode_word("-- -.--") returns "MY").
 def decode_word(word)
   if word.is_a? String
     word_decode = ''
@@ -72,9 +73,11 @@ def decode_word(word)
   word_decode
 end
 
-# Create a method to decode an entire word in Morse code,
-# takes a string parameter, and return the string representation.
-
+# Create a method to decode the entire message in Morse code, takes a string parameter,
+# and return the string representation.
+# Every word will be separated by 3 spaces
+# (e.g. decode(".-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...")
+# returns "A BOX FULL OF RUBIES").
 def decode(phrase)
   words = split_phrase(phrase)
   phrase_decode = ''
