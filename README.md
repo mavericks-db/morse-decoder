@@ -47,7 +47,7 @@ $ git clone git@github.com:mavericks-db/morse-decoder.git
 
 Kindly modify the files as needed.
 
-## Author
+## Authors
 
 👤 **Mavericks Balitaan** <img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="20"/>
 
